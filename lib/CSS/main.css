@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0) 100%), url("https://user-images.githubusercontent.com/98095685/156355804-3be3bba0-56ff-4936-811c-3408ccedd68a.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav .logo-menu{
+    width: 97%;
+    height: 10vh;
+    margin-left: 30px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .logo-menu img{
+    width: 12%;
+}
+nav .menu{
+    color: #fff;
+    display: flex;
+}
+label {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 0px 17px;
+    margin: -8% 0% 0% 90%;
+    line-height: 50px;
+    border-radius: 0.3rem;
+    float: right;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+#menu-bar{
+    text-align: end;
+    cursor: pointer;
+}
+nav .menu ul {
+    display: flex;
+}
+li {
+    margin-right: 30px;
+    list-style-type:none;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+li a:hover{
+    color: black;
+    padding: 5px;
+    background-color: rgba(256,256,256,0.5);
+    border-radius: 5px;
+}
+.banner {
+    color: #fff;
+    padding: 25px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 8%;
+}
+.title{
+    margin-top: 15px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.description1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 500px;
+    font-weight: 400;
+    font-size: medium;
+}
+.description2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    margin-bottom: 40px;
+}
+.btn-grp button{
+    background-color: rgba(0,0,0,0.7);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.btn-grp button i{
+    margin-right: 10px;
+}
+.btn-grp button:hover{
+    background-color: #fff;
+    color: black;
+    font-weight: 400;
+}
+.c-part {
+    cursor: pointer;
+}
+
+ .owl-carousel {
+    color: #fff;
+}
+.owl-carousel img {
+    height: 40vh;
+    border-radius: 4%;
+}
