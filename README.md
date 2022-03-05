@@ -1,2 +1,5 @@
-# Netflix-Clone-By-Divyash
-Netflix Clone Created By Divyash From Newton School
+# Netflix-Clone-By-Shashwat
+
+
+https://shashwatpal1021.github.io/Netflix-Clone-By-Shashwat/
+
